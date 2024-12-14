@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f8fa; /* Color claro de fondo */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+header {
+    background-color: #1e3a8a; /* Azul oscuro para el encabezado */
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 15px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Main Layout */
+main {
+    width: 90%;
+    max-width: 1200px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* Section Styles */
+section {
+    background-color: #e0f7fa; /* Aqua claro */
+    border: 1px solid #b0bec5; /* Gris suave */
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+section h2 {
+    color: #00796b; /* Verde agua */
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+section p {
+    color: #4f5b62;
+    font-size: 1.1em;
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+    margin-top: 10px;
+    color: #4f5b62;
+}
+
+ul li {
+    list-style-type: disc;
+    margin-bottom: 8px;
+}
+
+/* Buttons */
+.button {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.button:hover {
+    background-color: #004d40;
+}
+
+/* Footer */
+footer {
+    background-color: #1e3a8a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.9em;
+    width: 100%;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+}
